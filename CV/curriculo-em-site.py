@@ -23,9 +23,6 @@ with tab1:
         st.divider()
         st.subheader(":blue[EXPERIÊNCIA PROFISSIONAL]")
 
-
-""")
-
         
         st.divider()
         st.subheader(":blue[PROJETOS]")
@@ -98,10 +95,12 @@ with tab2:
     st.image("fotodeperfil.png", caption="Joao Carvalho", width=200)
     st.title("Sobre Mim")
     st.write("""Sou João Marcos Santos e Carvalho, um estudante de tecnologia e sempre em busca de aprender algo novo. 
-Meu objetivo é me tornar uma desenvolvedor de destaque, com interesse especial em Ciência de Dados, Inteliência Artificial e Desenvolvimento Full Stack. 
-""")
+Meu objetivo é me tornar uma desenvolvedor de destaque, com interesse especial em Ciência de Dados, Inteliência Artificial e Desenvolvimento Full Stack. """)
     # Além da , .
     st.title("Projetos")
+    st.subheader("Projeto Currículo")
+    st.write("""Este é um projeto feito com Streamlit, onde criei um currículo interativo para treinar minhas habilidades de desenvolvimento web. 
+[Veja o código no GitHub](https://github.com/dev-joaocarvalho/curriculo-em-site)""")
 
     st.title("Contato")
 with st.form(key='contact_form'):
