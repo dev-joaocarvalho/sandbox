@@ -104,8 +104,7 @@ Meu objetivo é me tornar uma desenvolvedor de destaque, com interesse especial 
     # Além da , .
     st.title("Projetos")
     st.subheader("Projeto Currículo")
-    st.write("""
-Este é um projeto feito com Streamlit, onde criei um currículo interativo para treinar minhas habilidades de desenvolvimento web. 
+    st.write("""Este é um projeto feito com Streamlit, onde criei um currículo interativo para treinar minhas habilidades de desenvolvimento web. 
 [Veja o código no GitHub](https://github.com/dev-joaocarvalho/curriculo-em-site)
 """)
     st.title("Contato")
