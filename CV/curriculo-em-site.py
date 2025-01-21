@@ -97,8 +97,7 @@ with tab2:
     st.write("Mais sobre mim")
     st.image("fotodeperfil.png", caption="Joao Carvalho", width=200)
     st.title("Sobre Mim")
-    st.write("""
-Sou João Marcos Santos e Carvalho, um estudante de tecnologia e sempre em busca de aprender algo novo. 
+    st.write("""Sou João Marcos Santos e Carvalho, um estudante de tecnologia e sempre em busca de aprender algo novo. 
 Meu objetivo é me tornar uma desenvolvedor de destaque, com interesse especial em Ciência de Dados, Inteliência Artificial e Desenvolvimento Full Stack. 
 """)
     # Além da , .
