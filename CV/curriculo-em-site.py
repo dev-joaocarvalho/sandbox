@@ -32,7 +32,7 @@ with tab1:
         st.markdown('<h1 class="main-title">João Marcos Santos e Carvalho</h1>', unsafe_allow_html=True)
         st.write("Estudante de Engenharia de Software. Interesse em Ciência de Dados e Inteligência Artificial.")
 
-        st.image("fotodeperfil.png", caption="João Carvalho", width=150, use_column_width="auto", output_format="auto")
+        st.image("fotodeperfil.png", caption="João Carvalho", width=150, use_container_width=True)
 
         st.divider()
         st.markdown('<h2 class="section-title">EXPERIÊNCIA PROFISSIONAL</h2>', unsafe_allow_html=True)
@@ -94,7 +94,7 @@ with tab2:
     # Conteúdo para a aba 2
     st.markdown('<h2 class="main-title">PÁGINA EM CONSTRUÇÃO 🛠👩‍🚒</h2>', unsafe_allow_html=True)
     st.write("Mais sobre mim")
-    st.image("fotodeperfil.png", caption="João Carvalho", width=200)
+    st.image("fotodeperfil.png", caption="João Carvalho", width=200, use_container_width=True)
 
     st.markdown('<h2 class="section-title">Sobre Mim</h2>', unsafe_allow_html=True)
     st.write(
@@ -118,6 +118,8 @@ Este é um projeto feito com Streamlit, onde criei um currículo interativo para
         if submit:
             with st.spinner("Enviando sua mensagem..."):
                 time.sleep(2)
+                st.success("Mensagem enviada com sucesso!")
+
                 st.success("Mensagem enviada com sucesso!")
 
     
